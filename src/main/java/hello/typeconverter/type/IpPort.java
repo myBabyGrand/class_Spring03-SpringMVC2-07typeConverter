@@ -14,4 +14,12 @@ public class IpPort {
         this.ip = ip;
         this.port = port;
     }
+
+    @Override
+    public String toString() {
+        return "IpPort{" +
+                "ip='" + ip + '\'' +
+                ", port=" + port +
+                '}';
+    }
 }
